@@ -27,7 +27,7 @@ class Test(unittest.TestCase):
         result = search(lista, 9)
         self.assertEqual(result, 4)
 
-    def testCase_4(self):
+    def testCase_40(self):
         with self.assertRaises(ElementNotFoundException):
             lista = [1, 3, 5, 7, 9]
             result = search(lista, 50)
