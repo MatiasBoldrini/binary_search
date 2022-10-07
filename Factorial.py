@@ -1,6 +1,3 @@
-import unittest
-import random
-
 class ElementNotFoundException(Exception):
     pass
 class InvalidInputException(Exception):

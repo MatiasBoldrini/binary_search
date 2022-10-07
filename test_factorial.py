@@ -1,5 +1,5 @@
 from Factorial import search, ElementNotFoundException, InvalidInputException
-import unittest, random
+import unittest
 class Test(unittest.TestCase):
     def testCase_0(self):
         with self.assertRaises(ElementNotFoundException):
