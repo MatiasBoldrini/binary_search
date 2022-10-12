@@ -1,4 +1,4 @@
-from .Factorial import *
+from Factorial import *
 import unittest
 class Test(unittest.TestCase):
     def testCase_0(self):
