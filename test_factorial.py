@@ -1,5 +1,8 @@
-from Factorial import *
 import unittest
+
+from Factorial import *
+
+
 class Test(unittest.TestCase):
     def testCase_0(self):
         with self.assertRaises(ElementNotFoundException):
@@ -31,12 +34,12 @@ class Test(unittest.TestCase):
         with self.assertRaises(ElementNotFoundException):
             lista = [1, 3, 5, 7, 9]
             result = search(lista, 50)
-    
+
     def testCase_6(self):
         with self.assertRaises(InvalidInputException):
             lista = []
             result = search(lista, 2)
-            
+
 
 if __name__ == "__main__":
     unittest.main()
